@@ -1,0 +1,17 @@
+{
+  "name": "express-vercel",
+  "version": "1.0.0",
+  "description": "vercel deploy",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "datata",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
