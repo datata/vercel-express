@@ -11,6 +11,13 @@ app.get('/', (req, res) => {
     });
 });
 
+app.post('/register', (req, res) => {
+    res.json({
+        success: true,
+        message: "user register"
+    });
+});
+
 app.listen(PORT, () => {
     console.log("Server running on port: " + PORT);
 });
