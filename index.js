@@ -5,7 +5,10 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-    res.send('Health');
+    res.json({
+        success: true,
+        message: "healthy"
+    });
 });
 
 app.listen(PORT, () => {
